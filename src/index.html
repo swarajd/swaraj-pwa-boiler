@@ -18,7 +18,9 @@
 <script type="text/javascript">
   (function () {
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/my-service-worker.js');
+      navigator.serviceWorker.register('/my-service-worker.js')
+        .then(reg => console.log("registered!"))
+        .catch(err => console.log("in development mode so no serviceworker is created:", err))
     }
   })();
 </script>
