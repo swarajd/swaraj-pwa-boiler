@@ -1,0 +1,10 @@
+<svg width="196" height="196" viewBox="0 0 196 196"
+     xmlns="http://www.w3.org/2000/svg"
+     fill="#34495e">
+
+  <rect x="0" y="0" width="196" height="196" rx="15" ry="15"/>
+  <text x="55%" y="60%" 
+        stroke="#ecf0f1" stroke-width="1px" fill="#ecf0f1" 
+        alignment-baseline="middle" text-anchor="middle"
+        font-family="Avenir Next, Avenir, SegoeUI, sans-serif" font-size="60"> PWA </text>
+</svg>
