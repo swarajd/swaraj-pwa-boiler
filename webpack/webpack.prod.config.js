@@ -63,7 +63,7 @@ module.exports = {
 
         new SWPrecacheWebpackPlugin(
             {
-                cacheId: 'flickr-project',
+                cacheId: 'pwa-boiler',
                 filename: 'my-service-worker.js',
                 maximumFileSizeToCacheInBytes: 4194304,
                 stripPrefix: path.resolve(__dirname, '../build') + '/',
